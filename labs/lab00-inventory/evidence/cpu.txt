@@ -1,0 +1,6 @@
+kern.monotonic.task_thread_counting: 1
+vfs.generic.nfs.server.nfsd_thread_count: 0
+vfs.generic.nfs.client.nfsiod_thread_count: 0
+machdep.cpu.brand_string: Intel(R) Core(TM) i5-8257U CPU @ 1.40GHz
+machdep.cpu.core_count: 4
+machdep.cpu.thread_count: 8

@@ -1,0 +1,42 @@
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk1s5s1   113Gi    10Gi   8.9Gi    55%    427k   93M    0%   /
+Storage:
+
+    Macintosh HD - Data:
+
+      Free: 9,53 GB (9 526 714 368 bytes)
+      Capacity: 121,02 GB (121 018 208 256 bytes)
+      Mount Point: /System/Volumes/Data
+      File System: APFS
+      Writable: Yes
+      Ignore Ownership: No
+      BSD Name: disk1s1
+      Volume UUID: 3F6AF8A4-0EA1-487B-887A-DA3F863149DC
+      Physical Drive:
+          Device Name: APPLE SSD AP0128N
+          Media Name: AppleAPFSMedia
+          Medium Type: SSD
+          Protocol: PCI-Express
+          Internal: Yes
+          Partition Map Type: Unknown
+          S.M.A.R.T. Status: Verified
+
+    Macintosh HD:
+
+      Free: 9,53 GB (9 526 714 368 bytes)
+      Capacity: 121,02 GB (121 018 208 256 bytes)
+      Mount Point: /
+      File System: APFS
+      Writable: No
+      Ignore Ownership: No
+      BSD Name: disk1s5s1
+      Volume UUID: DA3F3512-B6F4-4EF6-8312-63729E292131
+      Physical Drive:
+          Device Name: APPLE SSD AP0128N
+          Media Name: AppleAPFSMedia
+          Medium Type: SSD
+          Protocol: PCI-Express
+          Internal: Yes
+          Partition Map Type: Unknown
+          S.M.A.R.T. Status: Verified
+

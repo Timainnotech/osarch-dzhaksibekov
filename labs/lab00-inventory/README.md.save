@@ -1,0 +1,20 @@
+# Lab 0 — Machine Inventory
+
+| What | Value | Where I got it (Command) |
+| :--- | :--- | :--- |
+| **CPU Model** | [Впиши модель, например: Apple M1] | `sysctl -a \| grep brand_string` |
+| **CPU Core Count** | [Впиши число ядер] | `sysctl -a \| grep core_count` |
+| **CPU Thread Count** | [Впиши число потоков] | `sysctl -a \| grep thread_count` |
+| **Total Memory** | [Впиши сколько ГБ оперативы] | `system_profiler SPHardwareDataType \| grep Memory` |
+| **Memory Modules Count** | 1 (Integrated SoC) | `system_profiler SPMemoryDataType` |
+| **Memory Speed** | Unified Memory | `system_profiler SPMemoryDataType` |
+| **Disk Model** | Apple SSD | `system_profiler SPStorageDataType` |
+| **Disk Type** | NVMe SSD | `system_profiler SPStorageDataType` |
+| **Free Space (VM Volume)**| [Впиши свободное место, например: 140 Gi] | `df -h /` |
+| **Firmware Type** | UEFI / Apple EFI | Mac Architecture Specification |
+| **Firmware Version & Date**| [Впиши версию прошивки из Шага 2] | `system_profiler SPHardwareDataType` |
+| **Hardware Virtualization**| Present and Enabled | `sysctl kern.hv_support` |
+
+## What did not work
+Standard Linux commands like 'dmidecode' do not work on macOS hardware. I used Apple-specific commands 'sysctl' and 'system_profiler' instead to bypass this.
+
