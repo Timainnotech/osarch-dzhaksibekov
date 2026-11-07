@@ -1,0 +1,76 @@
+# macOS specs — 2026-11-07 21:07
+$ sysctl -n machdep.cpu.brand_string
+Intel(R) Core(TM) i5-8257U CPU @ 1.40GHz
+
+$ sysctl hw.physicalcpu hw.logicalcpu
+hw.physicalcpu: 4
+hw.logicalcpu: 8
+
+$ sysctl hw.memsize
+hw.memsize: 8589934592
+
+$ system_profiler SPMemoryDataType
+Memory:
+
+    Memory Slots:
+
+      ECC: Disabled
+      Upgradeable Memory: No
+
+        BANK 0/ChannelA-DIMM0:
+
+          Size: 4 GB
+          Type: LPDDR3
+          Speed: 2133 MHz
+          Status: OK
+          Manufacturer: SK Hynix
+          Part Number: H9CCNNNBJTALAR-NVD
+          Serial Number: -
+
+        BANK 2/ChannelB-DIMM0:
+
+          Size: 4 GB
+          Type: LPDDR3
+          Speed: 2133 MHz
+          Status: OK
+          Manufacturer: SK Hynix
+          Part Number: H9CCNNNBJTALAR-NVD
+          Serial Number: -
+
+
+$ diskutil info disk0
+   Device Identifier:         disk0
+   Device Node:               /dev/disk0
+   Whole:                     Yes
+   Part of Whole:             disk0
+   Device / Media Name:       APPLE SSD AP0128N
+
+   Volume Name:               Not applicable (no file system)
+   Mounted:                   Not applicable (no file system)
+   File System:               None
+
+   Content (IOContent):       GUID_partition_scheme
+   OS Can Be Installed:       No
+   Media Type:                Общий
+   Protocol:                  PCI-Express
+   SMART Status:              Verified
+
+   Disk Size:                 121.3 GB (121332826112 Bytes) (exactly 236978176 512-Byte-Units)
+   Device Block Size:         4096 Bytes
+
+   Media OS Use Only:         No
+   Media Read-Only:           No
+   Volume Read-Only:          Not applicable (no file system)
+
+   Device Location:           Internal
+   Removable Media:           Fixed
+
+   Solid State:               Yes
+   Virtual:                   No
+   Hardware AES Support:      Yes
+
+
+$ df -h /
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk1s5s1   113Gi    10Gi    48Gi    19%    426k  499M    0%   /
+
