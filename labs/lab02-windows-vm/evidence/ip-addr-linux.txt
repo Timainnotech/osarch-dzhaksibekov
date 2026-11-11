@@ -1,0 +1,18 @@
+# Ubuntu guest (UTM VM "lab02", hostname lab02) — transcribed from the VM console, 07.11.2026
+# Screenshot of the same console: ubuntu-ip-addr-uname.jpg
+temirlan@lab02:~$ ip addr
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host noprefixroute
+       valid_lft forever preferred_lft forever
+2: enp0s1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether b6:a6:60:8b:23:4d brd ff:ff:ff:ff:ff:ff
+    altname enxb6a6608b234d
+    inet 10.211.55.5/24 metric 100 brd 10.211.55.255 scope global dynamic enp0s1
+       valid_lft 3540sec preferred_lft 3540sec
+    inet6 fd6b:d8d1:1f44:500d:b4a6:60ff:fe8b:234d/64 scope global dynamic mngtmpaddr noprefixroute
+       valid_lft 2591940sec preferred_lft 604740sec
+    inet6 fe80::b4a6:60ff:fe8b:234d/64 scope link proto kernel_ll
+       valid_lft forever preferred_lft forever

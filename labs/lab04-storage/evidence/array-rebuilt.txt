@@ -1,0 +1,57 @@
+$ cat /proc/mdstat
+Personalities : [raid1] 
+md0 : active raid1 sdd1[2] sdb1[0]
+      1045504 blocks super 1.2 [2/2] [UU]
+      
+unused devices: <none>
+
+$ sudo mdadm --detail /dev/md0
+/dev/md0:
+           Version : 1.2
+     Creation Time : Wed Nov 11 18:20:21 2026
+        Raid Level : raid1
+        Array Size : 1045504 (1021.00 MiB 1070.60 MB)
+     Used Dev Size : 1045504 (1021.00 MiB 1070.60 MB)
+      Raid Devices : 2
+     Total Devices : 2
+       Persistence : Superblock is persistent
+
+       Update Time : Wed Nov 11 18:20:35 2026
+             State : clean 
+    Active Devices : 2
+   Working Devices : 2
+    Failed Devices : 0
+     Spare Devices : 0
+
+Consistency Policy : resync
+
+              Name : lab02:0  (local to host lab02)
+              UUID : f8636930:be348ee1:7fd15b71:7c8b20b4
+            Events : 48
+
+    Number   Major   Minor   RaidDevice State
+       0       8       17        0      active sync   /dev/sdb1
+       2       8       49        1      active sync   /dev/sdd1
+
+$ lsblk -o NAME,SIZE,TYPE,FSTYPE,MOUNTPOINTS
+NAME                       SIZE TYPE  FSTYPE            MOUNTPOINTS
+loop0                     66.8M loop  squashfs          /snap/core24/1643
+loop1                     66.8M loop  squashfs          /snap/core24/2124
+loop2                      1.5M loop  squashfs          /snap/hwctl/123
+loop3                     50.1M loop  squashfs          /snap/snapd/27710
+loop4                      1.5M loop  squashfs          /snap/hwctl/131
+sda                         20G disk                    
+├─sda1                     953M part  vfat              /boot/efi
+├─sda2                     1.8G part  ext4              /boot
+└─sda3                    17.3G part  LVM2_member       
+  └─ubuntu--vg-ubuntu--lv   10G lvm   ext4              /
+sdb                          1G disk                    
+└─sdb1                    1022M part  linux_raid_member 
+  └─md0                   1021M raid1 ext4              /mnt/mirror
+sdc                          1G disk                    
+└─sdc1                    1022M part  linux_raid_member 
+sdd                          1G disk                    
+└─sdd1                    1022M part  linux_raid_member 
+  └─md0                   1021M raid1 ext4              /mnt/mirror
+sr0                       1024M rom                     
+

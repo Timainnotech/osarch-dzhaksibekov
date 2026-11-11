@@ -1,0 +1,53 @@
+role,component,model,price_kzt,source,date
+accountant,CPU,"AMD Ryzen 5 5500GT (AM4, 6c/12t, Radeon Vega 7 graphics, OEM)",79190,https://shop.kz/offer/protsessor-amd-ryzen-5-5500gt-am4-oem/,2026-11-11
+accountant,Motherboard,"MSI A520M-A Pro (AM4, mATX, 2x DDR4, 1x M.2)",30590,https://shop.kz/offer/materinskaya-plata-msi-a520m-a-pro-am4/,2026-11-11
+accountant,Memory,Team Group Elite DDR4-3200 2x8 GB (TED416G3200C22DC01),76990,https://shop.kz/offer/ddr-4-dimm-16-gb-3200-mhz-team-group-elite-2x-8-gb-kit-box-ted416g3200c22dc01/,2026-11-11
+accountant,SSD,"WD Blue SN5100 1 TB (M.2 NVMe, PCIe 4.0)",91590,https://shop.kz/offer/ssd-nakopitel-1-tb-western-digital-blue-sn5100-m-2-pcle-4-0/,2026-11-11
+accountant,Case,Ocypus Gamma C50 BK (mATX),11690,https://shop.kz/offer/korpus-ocypus-gamma-c50-bk-black/,2026-11-11
+accountant,Power supply,Ocypus Gamma P550 550 W (80 PLUS),18990,https://shop.kz/offer/blok-pitaniya-atx-550-w-ocypus-gamma-p550/,2026-11-11
+accountant,CPU cooler,"Ocypus Gamma A40 BK (AM4/AM5, 133 mm)",7290,https://shop.kz/offer/kuler-ocypus-gamma-a40-bk/,2026-11-11
+accountant,Monitor,ASUS VA249QG 23.8in IPS 1920x1080,53990,https://shop.kz/offer/monitor-23-8-asus-va249qg-black/,2026-11-11
+accountant,Operating system,"Microsoft Windows 11 Pro 64-bit (BOX, USB)",122990,https://shop.kz/offer/microsoft-windows-11-professional-64-bit-usb/,2026-11-11
+accountant,Keyboard + mouse,"Logitech MK120 (USB, RU/EN layout)",8990,https://shop.kz/offer/klaviatura-logitech-mk120-black-usb-mysh/,2026-11-11
+accountant,UPS,"FSP FP 850 (Schuko, AVR)",24590,https://shop.kz/offer/ups-fsp-fp-850-schuko/,2026-11-11
+accountant,TOTAL,,526890,,2026-11-12
+sales,CPU,"AMD Ryzen 5 5500GT (AM4, 6c/12t, Radeon Vega 7 graphics, OEM)",79190,https://shop.kz/offer/protsessor-amd-ryzen-5-5500gt-am4-oem/,2026-11-11
+sales,Motherboard,"MSI A520M-A Pro (AM4, mATX, 2x DDR4, 1x M.2)",30590,https://shop.kz/offer/materinskaya-plata-msi-a520m-a-pro-am4/,2026-11-11
+sales,Memory,GeIL Pristine DDR4-3200 2x16 GB (GP432GB3200C22DC),139990,https://shop.kz/offer/ddr-4-dimm-32-gb-3200-mhz-geil-pristine-series-2x-16-gb-kit-box-gp432gb3200c22dc/,2026-11-11
+sales,SSD,"WD Blue SN5100 1 TB (M.2 NVMe, PCIe 4.0)",91590,https://shop.kz/offer/ssd-nakopitel-1-tb-western-digital-blue-sn5100-m-2-pcle-4-0/,2026-11-11
+sales,Case,Ocypus Gamma C50 BK (mATX),11690,https://shop.kz/offer/korpus-ocypus-gamma-c50-bk-black/,2026-11-11
+sales,Power supply,Ocypus Gamma P550 550 W (80 PLUS),18990,https://shop.kz/offer/blok-pitaniya-atx-550-w-ocypus-gamma-p550/,2026-11-11
+sales,CPU cooler,"Ocypus Gamma A40 BK (AM4/AM5, 133 mm)",7290,https://shop.kz/offer/kuler-ocypus-gamma-a40-bk/,2026-11-11
+sales,Monitor,ASUS VA249QG 23.8in IPS 1920x1080,53990,https://shop.kz/offer/monitor-23-8-asus-va249qg-black/,2026-11-11
+sales,Operating system,"Microsoft Windows 11 Home 64-bit (BOX, USB)",82990,https://shop.kz/offer/microsoft-windows-11-home-64-bit-usb/,2026-11-12
+sales,Keyboard + mouse,"Logitech MK120 (USB, RU/EN layout)",8990,https://shop.kz/offer/klaviatura-logitech-mk120-black-usb-mysh/,2026-11-11
+sales,Webcam,Ugreen CM678 1080p,12490,https://shop.kz/offer/web-kamera-ugreen-cm678-black/,2026-11-11
+sales,Headset,Jabra Evolve 20 MS Mono (USB-C/A),19590,https://shop.kz/offer/garnitura-jabra-evolve-20-ms-mono-usb-c-a-black/,2026-11-11
+sales,TOTAL,,557380,,2026-11-12
+developer,CPU,"AMD Ryzen 7 5700G (AM4, 8c/16t, Radeon graphics, OEM)",115590,https://shop.kz/offer/protsessor-amd-ryzen-7-5700g-am4-oem/,2026-11-11
+developer,Motherboard,"MSI B550M PRO-VDH (AM4, mATX, 4x DDR4, 2x M.2)",47690,https://shop.kz/offer/materinskaya-plata-msi-b550m-pro-vdh-am4/,2026-11-11
+developer,Memory,GeIL Pristine DDR4-3200 2x16 GB (GP432GB3200C22DC),139990,https://shop.kz/offer/ddr-4-dimm-32-gb-3200-mhz-geil-pristine-series-2x-16-gb-kit-box-gp432gb3200c22dc/,2026-11-11
+developer,SSD,"WD Blue SN5100 1 TB (M.2 NVMe, PCIe 4.0)",91590,https://shop.kz/offer/ssd-nakopitel-1-tb-western-digital-blue-sn5100-m-2-pcle-4-0/,2026-11-11
+developer,Case,Ocypus Gamma C50 BK (mATX),11690,https://shop.kz/offer/korpus-ocypus-gamma-c50-bk-black/,2026-11-11
+developer,Power supply,Ocypus Gamma P550 550 W (80 PLUS),18990,https://shop.kz/offer/blok-pitaniya-atx-550-w-ocypus-gamma-p550/,2026-11-11
+developer,CPU cooler,"Ocypus Gamma A40 BK (AM4/AM5, 133 mm)",7290,https://shop.kz/offer/kuler-ocypus-gamma-a40-bk/,2026-11-11
+developer,Monitor,AOC Q27B36X 27in IPS 2560x1440,86990,https://shop.kz/offer/monitor-27-aoc-q27b36x-black/,2026-11-11
+developer,Monitor 2,AOC Q27B36X 27in IPS 2560x1440,86990,https://shop.kz/offer/monitor-27-aoc-q27b36x-black/,2026-11-11
+developer,Operating system,"Ubuntu 24.04 LTS Desktop (free licence, no fee)",0,https://ubuntu.com/download/desktop,2026-11-11
+developer,Keyboard + mouse,"Logitech MK120 (USB, RU/EN layout)",8990,https://shop.kz/offer/klaviatura-logitech-mk120-black-usb-mysh/,2026-11-11
+developer,TOTAL,,615800,,2026-11-12
+designer,CPU,"AMD Ryzen 7 5700X (AM4, 8c/16t, no integrated graphics, OEM)",79490,https://shop.kz/offer/protsessor-amd-ryzen-7-5700x-am4-oem/,2026-11-11
+designer,Motherboard,"MSI B550M PRO-VDH (AM4, mATX, 4x DDR4, 2x M.2)",47690,https://shop.kz/offer/materinskaya-plata-msi-b550m-pro-vdh-am4/,2026-11-11
+designer,Memory,GeIL Pristine DDR4-3200 2x16 GB (GP432GB3200C22DC),139990,https://shop.kz/offer/ddr-4-dimm-32-gb-3200-mhz-geil-pristine-series-2x-16-gb-kit-box-gp432gb3200c22dc/,2026-11-11
+designer,SSD,"WD Blue SN5100 1 TB (M.2 NVMe, PCIe 4.0)",91590,https://shop.kz/offer/ssd-nakopitel-1-tb-western-digital-blue-sn5100-m-2-pcle-4-0/,2026-11-11
+designer,Graphics card,ASUS Prime GeForce RTX 5050 OC 8 GB,245990,https://shop.kz/offer/videokarta-asus-rtx-5050-prime-oc-8-gb-geforce-rtx-5050/,2026-11-11
+designer,Case,Ocypus Gamma C50 BK (mATX),11690,https://shop.kz/offer/korpus-ocypus-gamma-c50-bk-black/,2026-11-11
+designer,Power supply,DeepCool GamerStorm PF650D V2 650 W (80 PLUS Silver),27690,https://shop.kz/offer/blok-pitaniya-atx-650-w-deepcool-gamerstorm-pf650d-v2/,2026-11-12
+designer,CPU cooler,"Ocypus Gamma A40 BK (AM4/AM5, 133 mm)",7290,https://shop.kz/offer/kuler-ocypus-gamma-a40-bk/,2026-11-11
+designer,Monitor,ASUS VY27UQ 27in IPS 3840x2160 (99% sRGB),140890,https://shop.kz/offer/monitor-27-asus-vy27uq-black/,2026-11-11
+designer,Operating system,"Microsoft Windows 11 Home 64-bit (BOX, USB)",82990,https://shop.kz/offer/microsoft-windows-11-home-64-bit-usb/,2026-11-12
+designer,Keyboard + mouse,"Logitech MK120 (USB, RU/EN layout)",8990,https://shop.kz/offer/klaviatura-logitech-mk120-black-usb-mysh/,2026-11-11
+designer,TOTAL,,884290,,2026-11-12
+all,GRAND TOTAL,,2584360,,2026-11-12
+all,BUDGET,,3000000,,2026-11-12
+all,RESERVE (budget - grand total),,415640,,2026-11-12

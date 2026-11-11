@@ -1,0 +1,8 @@
+# Ubuntu guest (UTM VM "lab02") — transcribed from the VM console, 07.11.2026
+temirlan@lab02:~$ uname -a; lsb_release -a
+Linux lab02 7.0.0-43-generic #43-Ubuntu SMP PREEMPT_DYNAMIC Fri Oct 23 13:25:25 UTC 2026 x86_64 GNU/Linux
+No LSB modules are available.
+Distributor ID: Ubuntu
+Description:    Ubuntu 26.04.1 LTS
+Release:        26.04
+Codename:       resolute
