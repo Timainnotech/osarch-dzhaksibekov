@@ -26,7 +26,7 @@ Run from this folder: `sh scripts/fix.sh`. All evidence is produced by `sh scrip
 ## Verification
 - `evidence/file-after.txt`: `Unicode text, UTF-8 (with BOM) text, with CRLF line terminators`; first bytes `ef bb bf 49 44 3b d0 a4 …` = BOM, then `ID;Ф…` in UTF-8.
 - `evidence/fixed-cat.txt`: every name reads correctly, for example Әбдірахманова, Қасымов, Нұрлан.
-- `evidence/opens-correctly.png`: TextEdit and the terminal side by side. Excel and LibreOffice are not installed on my Mac; the BOM is added for the Excel case.
+- `evidence/opens-correctly.png`: three applications side by side — Google Sheets (CSV import, separator `;`), TextEdit, and `cat` in the macOS terminal. Excel and LibreOffice are not installed on my Mac; the BOM is added for the Excel double-click case.
 
 ## What did not work the first time
 My first guess was Windows-1251, because the Russian header decoded fine. The Kazakh surnames stayed broken (`Јбдірахманова`, `Ќасымов`) — saved in `evidence/first-attempt-cp1251.txt`. So the code page differs only in the Kazakh letters, which points to RK1048.
