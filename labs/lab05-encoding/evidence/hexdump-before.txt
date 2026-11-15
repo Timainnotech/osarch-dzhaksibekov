@@ -1,0 +1,6 @@
+$ od -A x -t x1 -N 64 evidence/staff-broken.csv
+0000000    49  44  3b  d4  e0  ec  e8  eb  e8  ff  3b  c8  ec  ff  3b  ce
+0000010    f2  e4  e5  eb  3b  c4  ee  eb  e6  ed  ee  f1  f2  fc  3b  c3
+0000020    ee  f0  ee  e4  0d  0a  31  30  31  3b  a3  e1  e4  b3  f0  e0
+0000030    f5  ec  e0  ed  ee  e2  e0  3b  c0  f0  f3  e6  e0  ed  3b  c1
+0000040

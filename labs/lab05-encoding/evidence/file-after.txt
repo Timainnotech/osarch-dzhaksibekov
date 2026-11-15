@@ -1,0 +1,5 @@
+$ file evidence/staff-fixed.csv
+evidence/staff-fixed.csv: Unicode text, UTF-8 (with BOM) text, with CRLF line terminators
+$ od -A x -t x1 -N 16 evidence/staff-fixed.csv
+0000000    ef  bb  bf  49  44  3b  d0  a4  d0  b0  d0  bc  d0  b8  d0  bb
+0000010
